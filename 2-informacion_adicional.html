@@ -36,7 +36,7 @@
     <div class="container col-8 mt-5 text-secondary bg-light rounded">
         <br>
         <h2>Información adicional</h2>
-            <form method="post" action="3-pedido.html" class="was-validated">
+            <form method="get" action="3-pedido.html" class="was-validated">
                 <div class="mb-3 mt-3">
                     <label for="name" class="form-label">País:</label>
                     <input type="text" name="text" id="text" class="form-control" placeholder="Enter your country" pattern="[a-zA-Z,ñ,Ñ\s]{2,20}" required>
@@ -44,10 +44,10 @@
                     <div class="invalid-feedback">Por favor, complete el país correctamente.</div>
                 </div>
                 <div class="mb-3 mt-3">
-                    <label for="number" class="form-label">Código postal (5 números): </label>
-                    <input type="text" name="text" id="text" class="form-control" placeholder="Enter your postal code" pattern="[0-9]{5,5}" required>
+                    <label for="number" class="form-label">Código getal (5 números): </label>
+                    <input type="text" name="text" id="text" class="form-control" placeholder="Enter your getal code" pattern="[0-9]{5,5}" required>
                     <div class="valid-feedback">Válido.</div>
-                    <div class="invalid-feedback">Por favor, complete el código postal correctamente.</div>
+                    <div class="invalid-feedback">Por favor, complete el código getal correctamente.</div>
                 </div>
                 <div class="mb-3 mt-3">
                     <label for="comment" class="form-label">Comentarios al transportista sobre la entrega:</label>
